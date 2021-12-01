@@ -7,12 +7,12 @@
 class Shashki{
     public:
     Shashki();
+    private:
     void start();
     void enter_index();
     bool check_at(int,int);
     bool check_to(int,int);
     void check_win();
-    private:
     char vandak[8][8];
     char figur;
     bool state;
